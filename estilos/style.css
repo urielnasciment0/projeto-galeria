@@ -41,6 +41,7 @@ section.imagem {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 section.imagem > iframe {
@@ -70,6 +71,7 @@ section.imagem > iframe#vd3 {
 
 section#img1 {
     background-image: url('../imagens/warzone.jpg');
+    background-position: left top;
 }
 
 section#img2 {
