@@ -21,12 +21,12 @@ header {
 
 header h1 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 4em;
+    font-size: clamp(3em, 4vw, 4em);
     padding-top: 30px;
 }
 
 header p {
-    font-size: 2em;
+    font-size: clamp(1em, 1.5vw, 1.5em);
 }
 
 section {
@@ -46,6 +46,7 @@ section.imagem {
 
 section.imagem > iframe {
     position: absolute;
+    padding: 20px;
 }
 
 section.imagem > iframe#vd1 {
