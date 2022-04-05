@@ -30,7 +30,7 @@ header p {
 }
 
 section {
-    width: 98.7vw;
+    width: 100vw;
     height: 100vh;
     box-shadow: 5px 5px 5px black;
     margin-bottom: 0.4em;
@@ -52,7 +52,7 @@ section.imagem > iframe#vd1 {
     width: 50%;
     height: 60%;
     top:50px;
-    left: 500px;
+    left: 40%;
 }
 
 section.imagem > iframe#vd2 {
@@ -65,7 +65,7 @@ section.imagem > iframe#vd2 {
 section.imagem > iframe#vd3 {
     width: 50%;
     height: 60%;
-    top: 160px;
+    top: 25%;
     left: 25%;
 }
 
