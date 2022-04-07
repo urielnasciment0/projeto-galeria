@@ -59,8 +59,9 @@ section.container-imagem {
 
 .col {
     place-self: center;
-    width: 60%;
-    m
+    min-width: 480px;
+    width: 50%;
+    height: 480px;
 }
 
 section#img1 {
