@@ -58,9 +58,18 @@ section.container-imagem {
 }
 
 .col {
+    position: relative;
     place-self: center;
     min-width: 320px;
     width: 50%;
+}
+
+.col#vid1 {
+    left: 15vw;
+}
+
+.col#vid2 {
+    right: 15%;
 }
 
 section#img1 {
